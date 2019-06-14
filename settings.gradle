@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'spring-play-ground'
+include 'springboot-core'
+include 'spring-cloud-zuul'
