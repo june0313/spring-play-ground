@@ -1,0 +1,3 @@
+dependencies {
+    compile group: 'net.jcip', name: 'jcip-annotations', version: '1.0'
+}
