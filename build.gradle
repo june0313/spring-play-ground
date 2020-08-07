@@ -41,6 +41,7 @@ subprojects {
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        testCompile group: 'junit', name: 'junit', version: '4.13'
     }
 
     task initSourceFolders {
