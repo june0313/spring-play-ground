@@ -1,0 +1,6 @@
+dependencies {
+    annotationProcessor group: 'com.datastax.oss', name: 'java-driver-mapper-processor', version: '4.9.0'
+    compile group: 'com.datastax.oss', name: 'java-driver-mapper-runtime', version: '4.9.0'
+    compile group: 'com.datastax.oss', name: 'java-driver-core', version: '4.9.0'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-cassandra', version: '2.4.0'
+}
