@@ -16,4 +16,6 @@ public class Employee {
     private PaymentSchedule paymentSchedule;
     @Setter
     private PaymentMethod paymentMethod;
+    @Setter
+    private Affiliation affiliation;
 }
