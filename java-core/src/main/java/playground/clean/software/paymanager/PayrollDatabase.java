@@ -13,4 +13,8 @@ public class PayrollDatabase {
     public static void addEmployee(int empId, Employee employee) {
         employeeMap.put(empId, employee);
     }
+
+    public static void deleteEmployee(int empId) {
+        employeeMap.remove(empId);
+    }
 }
